@@ -1,0 +1,2818 @@
+[
+  {
+    "id": 1,
+    "question": "What is K -Nearest Neighbors (K -NN) algorithm primarily used for?",
+    "options": [
+      "Clustering data points into groups.",
+      "Predicting continuous numerical values.",
+      "Classifying data points based on their neighbours.",
+      "Dimensionality reduction"
+    ],
+    "answer": null
+  },
+  {
+    "id": 2,
+    "question": "Which of the following algorithms is commonly used to construct a decision tree?",
+    "options": [
+      "K-means clustering.",
+      "Linear regression.",
+      "Random Forest",
+      "Gradient Boosting"
+    ],
+    "answer": null
+  },
+  {
+    "id": 3,
+    "question": "Which of the following statements about outliers in linear regression is true?",
+    "options": [
+      "Outliers always have a negative impact on the regression model's performance",
+      "Outliers can significantly influence the regression line and coefficient estimates",
+      "Outliers are only present in the dependent variable, not the independent variable",
+      "Outliers should always be removed from the dataset before conducting linear regression"
+    ],
+    "answer": null
+  },
+  {
+    "id": 4,
+    "question": "Which type of probability is estimated by Naive Bayes to make predictions?",
+    "options": [
+      "Joint probability.",
+      "Conditional probability",
+      "Marginal probability.",
+      "Posterior probability."
+    ],
+    "answer": null
+  },
+  {
+    "id": 5,
+    "question": "In linear regression analysis, heteroscedasticity refers to :",
+    "options": [
+      "The violation of the linearity assumption between the independent and dependent   variables",
+      "The presence of influential outliers in the dataset",
+      "The unequal spread or variability of the residuals across the range of predicted values",
+      "The correlation between the independent variables."
+    ],
+    "answer": null
+  },
+  {
+    "id": 6,
+    "question": "In linear regression analysis, what does it mean if the Durbin -Watson statistic is close to zero?",
+    "options": [
+      "There is no autocorrelation present in the residuals.",
+      "There is positive autocorrelation present in the residuals.",
+      "There is negative autocorrelation present in the residuals",
+      "The model suffers from heteroscedasticity."
+    ],
+    "answer": null
+  },
+  {
+    "id": 7,
+    "question": "In the K -NN algorithm, what happens when the value of K is set to 1?",
+    "options": [
+      "The algorithm becomes more prone to overfitting.",
+      "The algorithm becomes more prone to underfitting.",
+      "The classification decision is based solely on the nearest neighbour.",
+      "The algorithm does not make any classification predictions."
+    ],
+    "answer": null
+  },
+  {
+    "id": 8,
+    "question": "What is the primary goal of the K -means clustering algorithm?",
+    "options": [
+      "To classify data points into different classes.",
+      "To find the optimal number of clusters in the dataset.",
+      "To identify outliers in the data.  \n \n3. To group similar data points into clusters  \n \n \n \n \n \n \n \n \n \n9) What is the purpose of conducting residual analysis in linear regression?  \n \n \n1. To calculate the predicted values of the dependent variable.  \n \n2. To check for heteroscedasticity in the residuals . \n \n3. To identify influential outliers in the independent variables.",
+      "To estimate the confidence intervals of the regression coefficients."
+    ],
+    "answer": null
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of residual analysis in linear regression?",
+    "options": [
+      "To check the assumptions of linearity and normality of residuals.",
+      "To identify influential outliers in the independent variable.",
+      "To calculate the adjusted R -squared for the regression model.",
+      "To determine the interaction effects between independent variables."
+    ],
+    "answer": null
+  },
+  {
+    "id": 11,
+    "question": "How can you check if a dataset is a time series object in R?",
+    "options": [
+      "is.time_series()",
+      "isTimeSeries()",
+      "is.ts()",
+      "checkTS()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 12,
+    "question": "What does ACF stand for in time series analysis?",
+    "options": [
+      "Autoregressive Coefficient Function",
+      "Auto Covariance Function",
+      "Autoregressive Conditional Forecast",
+      "Autocorrelation Function"
+    ],
+    "answer": null
+  },
+  {
+    "id": 13,
+    "question": "What does the `%>%` operator (pipe operator) do in R?",
+    "options": [
+      "It performs matrix multiplication.",
+      "It calculates the percentage change between two values.",
+      "It pipes the output of one function as the input to another function",
+      "It converts an object to a data frame."
+    ],
+    "answer": null
+  },
+  {
+    "id": 14,
+    "question": "What is R programming?",
+    "options": [
+      "R is a statistical programming language that is used for data analysis, visualization, and statistical \ncomputing.",
+      "R is a high -level programming language that is used for web development.",
+      "R is a low-level programming language that is used for operating system development.",
+      "R is a database programming language that is used for data storage and retrieval."
+    ],
+    "answer": null
+  },
+  {
+    "id": 15,
+    "question": "What is the syntax for calling a function in R programming?",
+    "options": [
+      "functionName(arguments)",
+      "arguments(functionName)",
+      "functionName(parameters)",
+      "parameters(functionName)"
+    ],
+    "answer": null
+  },
+  {
+    "id": 16,
+    "question": "What type of plot is used to display the relationship between two continuous variables in R?",
+    "options": [
+      "scatterplot",
+      "barplot",
+      "boxplot",
+      "line plot"
+    ],
+    "answer": null
+  },
+  {
+    "id": 17,
+    "question": "Which argument of the t.test() function in R specifies the alternative hypothesis?",
+    "options": [
+      "conf.level",
+      "mu",
+      "paired",
+      "alternative"
+    ],
+    "answer": null
+  },
+  {
+    "id": 1,
+    "question": "arima_model()  \n \n2. auto.arima()  \n \n3. fit_arima()  \n \n4. ARIMA_fit()  \n \n \n19) Which function is used to convert a numeric value to a string in R?",
+    "options": [
+      "as.character()",
+      "str()",
+      "to_string()",
+      "num2str()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 20,
+    "question": "Which function is used to convert all the characters in a string to uppercase in R?",
+    "options": [
+      "str_to_upper()",
+      "toupper()",
+      "str_toupper()",
+      "upper()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 21,
+    "question": "Which function is used to find the length of a string in R?",
+    "options": [
+      "str_len()",
+      "nchar()",
+      "str_count()",
+      "length()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 22,
+    "question": "Which of the following functions can be used to find the length of a vector in R?",
+    "options": [
+      "sum()",
+      "length()",
+      "mean()",
+      "var()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 23,
+    "question": "Which of the following functions is used to perform a t -test in R programming?",
+    "options": [
+      "t.test()",
+      "chisq.test()",
+      "prop.test()",
+      "anova()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is NOT a data structure in R programming?",
+    "options": [
+      "Vector",
+      "Matrix",
+      "List",
+      "Table"
+    ],
+    "answer": null
+  },
+  {
+    "id": 1,
+    "question": "while loop  \n \n2.for loop  \n \n3.repeat loop  \n \n4.do -while loop  \n \n26) ____ can be used to visualize data.",
+    "options": [
+      "Graphs",
+      "Charts",
+      "Maps",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 27,
+    "question": "______ charts are particularly common in project management",
+    "options": [
+      "LIne",
+      "Gantt",
+      "Bar",
+      "Pie"
+    ],
+    "answer": null
+  },
+  {
+    "id": 28,
+    "question": "________ are drawn in relation to the histogram?",
+    "options": [
+      "Scatter plot",
+      "Box plot",
+      "Bar plot",
+      "Frequency polygon"
+    ],
+    "answer": null
+  },
+  {
+    "id": 29,
+    "question": "A / An _______ is a variation on a basic line graph in which the area underneath the l ine is shaded to \nrepresent the total value of each data point.",
+    "options": [
+      "pictogram chart",
+      "area chart",
+      "bar chart",
+      "pie chart"
+    ],
+    "answer": null
+  },
+  {
+    "id": 30,
+    "question": "A _______ plot is a graph that shows the frequency of data along a number line.",
+    "options": [
+      "box",
+      "line",
+      "bargraph",
+      "histogram"
+    ],
+    "answer": null
+  },
+  {
+    "id": 31,
+    "question": "A _______ is a type of visualization used to show differences in data through variations in color.",
+    "options": [
+      "heat map",
+      "success map",
+      "choropleth map",
+      "Tree map"
+    ],
+    "answer": null
+  },
+  {
+    "id": 32,
+    "question": "A _________ is a simply graphical representation of steps.",
+    "options": [
+      "flow chart",
+      "line chart",
+      "bar chart",
+      "pie chart"
+    ],
+    "answer": null
+  },
+  {
+    "id": 33,
+    "question": "A _________ is a visual representation that illustrates how a value changes as it’s influenced by different \nfactors, such as time.",
+    "options": [
+      "bar chart",
+      "pictogram chart",
+      "area chart",
+      "waterfall chart"
+    ],
+    "answer": null
+  },
+  {
+    "id": 34,
+    "question": "A Family of parametric distribution in which mean is equal to variance is",
+    "options": [
+      "Binomial distribution",
+      "Gamma distribution",
+      "Normal distribution",
+      "Poisson distribution"
+    ],
+    "answer": null
+  },
+  {
+    "id": 35,
+    "question": "A family of parametric distributions which has mean always less than its variance is",
+    "options": [
+      "Negative Binomial Distribution",
+      "Binomial Distribution",
+      "Poisson Distribution",
+      "Hypergeometric Distribution"
+    ],
+    "answer": null
+  },
+  {
+    "id": 36,
+    "question": "A negative coefficient of skewness implies that",
+    "options": [
+      "Mean is greater than mode",
+      "Mean is less than mode",
+      "Mean is greater than median",
+      "Mean is equal to mode"
+    ],
+    "answer": null
+  },
+  {
+    "id": 37,
+    "question": "A of parametric distribution having mean <, =, > variance is",
+    "options": [
+      "Gamma distribution",
+      "Exponential distribution",
+      "Logistic distribution",
+      "All the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 38,
+    "question": "A suf ficient statistics is minimal if and only if it is a  \n \n1 Minimum sufficient statistics in a sequence of sufficient statistics  \n \n2.A function of every other sufficient statistics  \n \n3.A function of UMVU estimators  \n \n4.All the above  \n \n \n39)  A test based on a test statistic is classified as",
+    "options": [
+      "Randomised test",
+      "Non -randomised test",
+      "Sequential test",
+      "Bayes test"
+    ],
+    "answer": null
+  },
+  {
+    "id": 40,
+    "question": "A Test which maximizes the power of the test for fixed alpha is known as",
+    "options": [
+      "Optimum test",
+      "Randomised test",
+      "Bayes test",
+      "Likelihood ratio test"
+    ],
+    "answer": null
+  },
+  {
+    "id": 41,
+    "question": "An empirical relation between range and mean deviation is",
+    "options": [
+      "R = 10 M.D.",
+      "2R = 5 M.D.",
+      "3R = 5 M.D.",
+      "2R = 15 M.D."
+    ],
+    "answer": null
+  },
+  {
+    "id": 42,
+    "question": "An empirical relation between standard deviation, mean deviation about mean and \nquartile deviation is",
+    "options": [
+      "4 S.D = 6 M. D. = 5 Q. D.",
+      "4 S.D = 5 M. D. = 6 Q. D.",
+      "6 S.D = 5 M. D. = 4 Q. D.",
+      "5 S.D = 4 M. D. = 6 Q. D."
+    ],
+    "answer": null
+  },
+  {
+    "id": 43,
+    "question": "An urn contains 5 yellow, 4 bl ack and 3 white balls. Three balls are drawn at random. The \nprobability that no black ball is selected is",
+    "options": [
+      "1/66",
+      "14/55",
+      "2/9",
+      "1/3"
+    ],
+    "answer": null
+  },
+  {
+    "id": 44,
+    "question": "Bias of an estimator can be",
+    "options": [
+      "Positive",
+      "Negative",
+      "Either positive or negative",
+      "Zero"
+    ],
+    "answer": null
+  },
+  {
+    "id": 45,
+    "question": "Classical probability is also known as",
+    "options": [
+      "Laplace's probability",
+      "Mathematical probability",
+      "A priori probability",
+      "All the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 46,
+    "question": "Classical probability is measured in terms of",
+    "options": [
+      "An absolute value",
+      "A ratio",
+      "Ansolute value and ratio",
+      "none of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 47,
+    "question": "Consider the following R code:  \n \nR \n \nset.seed(123)  \n \ndata < - rnorm(100)  \n \nmean_data < - mean(data)  \n \nWhat does `set.seed(123)` do in this code?",
+    "options": [
+      "It initializes a random number generator with seed value 123.",
+      "It sets the mean of the data vector to 123.",
+      "It specifies the number of elements to be generated in the `data` vector.",
+      "It has no impact on the code."
+    ],
+    "answer": null
+  },
+  {
+    "id": 48,
+    "question": "Crammer -Rao inequality is based on",
+    "options": [
+      "Stringent conditions",
+      "Mild conditions",
+      "No conditions",
+      "None of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 49,
+    "question": "Critical region of size \"Alpha\" which minimized \"Beta\" amongst all critical region of size \nAlpha is called",
+    "options": [
+      "Powerful critical region",
+      "Minimum critical region",
+      "Best critical region",
+      "Worst critical region"
+    ],
+    "answer": null
+  },
+  {
+    "id": 50,
+    "question": "Data visualisation tools make it simple to view and comprehend ______ in data.",
+    "options": [
+      "trends",
+      "patterns",
+      "outliers",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 51,
+    "question": "For Bernoulli distribution with probability p of a success and q of a failure, the relation \nbetween mean and variance that holds is",
+    "options": [
+      "Mean < Variance",
+      "Mean > Variance",
+      "Mean = Variance",
+      "None of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 52,
+    "question": "Given that P(A)=1/3, P(B)=1/4, P(A|B)=1/6, the probability P(B|A) is equal to",
+    "options": [
+      "1/4",
+      "3/4",
+      "1/8",
+      "1/16"
+    ],
+    "answer": null
+  },
+  {
+    "id": 53,
+    "question": "How can you check the goodness of fit for a linear regression model in R?",
+    "options": [
+      "summary()",
+      "plot()",
+      "residuals()",
+      "all of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 54,
+    "question": "How can you install a package in R from the CRAN repository?",
+    "options": [
+      "install_package(\"package_name\")",
+      "install.packages(\"package_name\")",
+      "package::install(\"package_name\")",
+      "install(\"package_name\")"
+    ],
+    "answer": null
+  },
+  {
+    "id": 55,
+    "question": "How can you perform logistic regression in R?",
+    "options": [
+      "glm()",
+      "lm()",
+      "nls()",
+      "loess()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 56,
+    "question": "How do you define a function in R programming?",
+    "options": [
+      "By using the keyword \"def\"",
+      "By using the keyword \"function\"",
+      "By using the keyword \"fun\"",
+      "By using the keyword \"define\""
+    ],
+    "answer": null
+  },
+  {
+    "id": 57,
+    "question": "How does a decision tree determine the best feature to split on at each node?",
+    "options": [
+      "By maximizing the within -cluster variance.",
+      "By minimizing the sum of squared errors.",
+      "By minimizing the Gini impurity or maximizing the information gain.",
+      "By maximizing the correlation coefficient."
+    ],
+    "answer": null
+  },
+  {
+    "id": 58,
+    "question": "How does the choice of K impact the bias -variance tradeoff in the K -NN algorithm?",
+    "options": [
+      "Increasing K increases bias and decreases variance.",
+      "Increasing K decreases bias and increases variance.",
+      "Increasing K has no effect on the bias -variance tradeoff.",
+      "The bias -variance tradeoff is not applicable to the K -NN algorithm."
+    ],
+    "answer": null
+  },
+  {
+    "id": 59,
+    "question": "How does the K -means algorithm update the cluster centers in each iteration?",
+    "options": [
+      "By taking the mean of all data points in each cluster.",
+      "By calculating the median of all data points in each cluster.",
+      "By selecting the most representative data point as the center of each cluster.",
+      "By randomly assigning a new center for each cluster."
+    ],
+    "answer": null
+  },
+  {
+    "id": 60,
+    "question": "How does the K -NN algorithm classify a new data point?",
+    "options": [
+      "By finding the nearest data point and assigning its clas s to the new data point.",
+      "By averaging the classes of the K nearest neighbors of the new data point.",
+      "By training a decision tree on the existing data points and predicting the class.",
+      "By calculating the Euclidean distance between the new data point and all existing data points"
+    ],
+    "answer": null
+  },
+  {
+    "id": 61,
+    "question": "How is the optimal number of clusters selected in K -means clustering",
+    "options": [
+      "By trial and error, testing different numbers of clusters and evaluating their performance",
+      "By performing hierarchical clustering and identifying the ideal number of clusters",
+      "By selecting the number of clusters based on the maximum silhouette coefficient",
+      "By choosing the number of clusters equal to the square root of the number of data points"
+    ],
+    "answer": null
+  },
+  {
+    "id": 62,
+    "question": "If A and B are two events which have no point in common, the events A and B are",
+    "options": [
+      "Complementary to each other",
+      "Independent",
+      "Mutually exclusive",
+      "Dependent"
+    ],
+    "answer": null
+  },
+  {
+    "id": 63,
+    "question": "If a bag contains 4 white and 3 black balls. Two draws of 2 balls are successively \nmade, the probability of getting 2 white balls at first draw and 2 black balls at second \ndraw when balls drawn at first draw were replaced is",
+    "options": [
+      "3/7",
+      "1/7",
+      "19/49",
+      "2/49"
+    ],
+    "answer": null
+  },
+  {
+    "id": 64,
+    "question": "If for a binomial distribution, mean = 4 and variance = 4/3, the probability",
+    "options": [
+      "0.08779",
+      "0.04389",
+      "0.00137",
+      "0.35116"
+    ],
+    "answer": null
+  },
+  {
+    "id": 65,
+    "question": "if the expected value of an estimator is not equal to its parametric function, it is said \nto be a",
+    "options": [
+      "Unbiased estimator",
+      "Biased estimator",
+      "consistent estimator",
+      "Sufficient estimator"
+    ],
+    "answer": null
+  },
+  {
+    "id": 66,
+    "question": "If the moment generating function of a distribution is (q+(pe^t))^n, the variance of \nthe distribution is",
+    "options": [
+      "2n",
+      "pq",
+      "pq/n",
+      "npq"
+    ],
+    "answer": null
+  },
+  {
+    "id": 67,
+    "question": "If the sample mean is an estimate of the population mean, then the sample mean is",
+    "options": [
+      "Unbiased and efficient",
+      "Unbiased and inefficient",
+      "Biased and efficient",
+      "Biased and inefficient"
+    ],
+    "answer": null
+  },
+  {
+    "id": 68,
+    "question": "In a city 60 percentage people read newspaper A, 40 percent read newspaper B and \n30 perce nt read newspaper C, 20 percent read A and B, 30 percent read A and C, 10 \npercent read B and C. Also 15 percentage read newspaper A, B and C. The percentage of \npeople who do not read any of these newspapers is ____",
+    "options": [
+      "65%",
+      "15%",
+      "45%",
+      "20%"
+    ],
+    "answer": null
+  },
+  {
+    "id": 69,
+    "question": "In a one -sample t -test, which argument of the t.test() function in R specifies the \npopulation mean?",
+    "options": [
+      "conf.level",
+      "mu",
+      "paired",
+      "alternative"
+    ],
+    "answer": null
+  },
+  {
+    "id": 70,
+    "question": "In a symmetrical distribution is _____",
+    "options": [
+      "Mean = Median = Mode",
+      "Mean < Median < Mode",
+      "Mean > Media n > Mode",
+      "Mean < Mode & Mode< Median"
+    ],
+    "answer": null
+  },
+  {
+    "id": 71,
+    "question": "In decision trees, what is the purpose of pre -pruning?",
+    "options": [
+      "It is the process of removing irrelevant features from the dataset.",
+      "It is the process of setting a maximum depth or minimum number of samples for stopping tree \ngrowth.",
+      "It is the process of pruning the tree after it has been fully grown.",
+      "It is the process of handling missing values in the dataset."
+    ],
+    "answer": null
+  },
+  {
+    "id": 72,
+    "question": "In estimating the parameters of linear function, most commonly used method of \nestimation is",
+    "options": [
+      "Maximum likelihood method",
+      "Least square method",
+      "Method of minimum chi -square",
+      "Method of moments"
+    ],
+    "answer": null
+  },
+  {
+    "id": 73,
+    "question": "In linear regression, the coefficient of determination (R -squared) measures :",
+    "options": [
+      "The proportion of the variance in the dependent vari able explained by the independent \nvariable",
+      "The strength of the linear relationship between the independent and dependent variables",
+      "The significance of the independent variables in predicting the dependent variable",
+      "The difference between the observed and predicted values of the dependent variable"
+    ],
+    "answer": null
+  },
+  {
+    "id": 74,
+    "question": "In logistic regression, the coefficient of an independent variable represents:",
+    "options": [
+      "The change in the odds of the outcome for a one -unit change in the independent variable.",
+      "The predicted probabi lity of the outcome for a one -unit change in the independent variable.",
+      "The difference in the log -odds of the outcome for a one -unit change in the independent \nvariable.",
+      "The standardized effect size of the independent variable on the outcome."
+    ],
+    "answer": null
+  },
+  {
+    "id": 75,
+    "question": "In l ogistic regression, the dependent variable is typically:",
+    "options": [
+      "Continuous",
+      "Binary",
+      "Nominal",
+      "Ordinal"
+    ],
+    "answer": null
+  },
+  {
+    "id": 76,
+    "question": "In logistic regression, what is the purpose of the Hosmer -Lemeshow test?",
+    "options": [
+      "To assess the linearity assumption between the independent and dependent variables.",
+      "To evaluate the goodness -of-fit of the logistic regression model.",
+      "To identify influential outliers in the independent variables.",
+      "To determine the interaction effects between independent variables."
+    ],
+    "answer": null
+  },
+  {
+    "id": 77,
+    "question": "In multiple linear regression, the VIF (Variance Inflation Factor) is used to:",
+    "options": [
+      "Assess the overall fit of the regression model.",
+      "Identify influential outliers in the dataset.",
+      "Evaluate the multicollinearity among the independent variables.",
+      "Determine the normality of the residuals."
+    ],
+    "answer": null
+  },
+  {
+    "id": 78,
+    "question": "In Naive Bayes, what is the purpose of the Laplace smoothing (additive smoothing) \ntechnique?",
+    "options": [
+      "To handle missing values in the dataset.",
+      "To normalize the probabilities of rare events.",
+      "To reduce the computational complexity of t he algorithm.",
+      "To handle categorical variables in the dataset."
+    ],
+    "answer": null
+  },
+  {
+    "id": 79,
+    "question": "In Naive Bayes, what is the purpose of the log -likelihood estimation technique?",
+    "options": [
+      "To handle missing values in the dataset.",
+      "To convert probabilities into a logarithmic scale for numerical stability.",
+      "To handle categorical variables in the dataset.",
+      "To normalize the probabilities of rare events."
+    ],
+    "answer": null
+  },
+  {
+    "id": 80,
+    "question": "In R, what does the `grep()` function do?",
+    "options": [
+      "It performs generalized linear regression.",
+      "It searches for matches to a pattern i n a character vector.",
+      "It calculates the gradient of a function.",
+      "It fits an autoregressive integrated moving average (ARIMA) model."
+    ],
+    "answer": null
+  },
+  {
+    "id": 81,
+    "question": "In R, what does the `Sys.sleep()` function do?",
+    "options": [
+      "It calculates the system uptime.",
+      "It suspends the execution of R code for a specified number of seconds.",
+      "It measures the CPU time used by the current process.",
+      "It terminates the current R session."
+    ],
+    "answer": null
+  },
+  {
+    "id": 82,
+    "question": "In R, which function is used to convert a character vector to a factor?",
+    "options": [
+      "convert_t o_factor()",
+      "as.factor()",
+      "to_factor()",
+      "make_factor()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 83,
+    "question": "In R, which function is used to create a factorial design for an experiment?",
+    "options": [
+      "create_design()",
+      "factorial_design()",
+      "design.matrix()",
+      "expand.grid()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 84,
+    "question": "In R, which function is used to perform an ANOVA for a two -way factorial design?",
+    "options": [
+      "t.test()",
+      "cor.test()",
+      "aov()",
+      "chisq.test()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 85,
+    "question": "In R, which package is used for analyzing and interpreting designed experiments?",
+    "options": [
+      "designr",
+      "DOE",
+      "explore",
+      "experimentR"
+    ],
+    "answer": null
+  },
+  {
+    "id": 86,
+    "question": "In stepwise regression, how are the variables selected or removed from the model?",
+    "options": [
+      "Variables are added to the model one -by-one based on their p -values.",
+      "Variables are removed from the model one -by-one based on their effect on the model fit.",
+      "Variables are added or removed based on their correlation with the dependent variable.",
+      "Variables are added or removed based on their effect on the adjusted R -squared."
+    ],
+    "answer": null
+  },
+  {
+    "id": 87,
+    "question": "In the K -NN algorithm, how is the optimal value of K selected?",
+    "options": [
+      "By maximizing the accuracy on the training set.",
+      "By minimizing the accuracy on the training set.",
+      "By performing cross -validation to find the K with the highest accuracy.",
+      "The optimal value of K is fixed and determined by the dataset size."
+    ],
+    "answer": null
+  },
+  {
+    "id": 88,
+    "question": "Let X ~ Normal distribution, then the central moments of odd order are",
+    "options": [
+      "One",
+      "Positive",
+      "Infinite",
+      "Zero"
+    ],
+    "answer": null
+  },
+  {
+    "id": 89,
+    "question": "Logistic regression is primarily used for:",
+    "options": [
+      "Predicting continuous numerical values.",
+      "Classifying categorical outcomes",
+      "Analyzing time series data.",
+      "Testing for outliers in a dataset."
+    ],
+    "answer": null
+  },
+  {
+    "id": 90,
+    "question": "Mean of the Pareto distribution is",
+    "options": [
+      "2.     \n\n \n \n3       \n \n \n4   None of the above  \n \n \n \nPage 10  \n \n \n91) Moment generating function of Poisson distribution is  \n \n1.",
+      "3.   \n \n \n4.    \n \n \n92) Naive Bayes is a classification algorithm based on:  \n \n1. \nDecision trees.  \n \n2. \nBayesian probability.",
+      "Neural networks.",
+      "Support Vector Machines (SVM)."
+    ],
+    "answer": null
+  },
+  {
+    "id": 93,
+    "question": "Normal distribution was invented by",
+    "options": [
+      "Laplace",
+      "Gauss",
+      "De-Movire",
+      "Feller"
+    ],
+    "answer": null
+  },
+  {
+    "id": 94,
+    "question": "Paired t -test is applicable when the observations in the two samples are",
+    "options": [
+      "Paired",
+      "Correlated",
+      "Equal in numbers",
+      "All the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 95,
+    "question": "Power of a test is related to",
+    "options": [
+      "Type I error",
+      "Type II error",
+      "Type I and Type II error",
+      "None of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 96,
+    "question": "Python's most popular data visualization library is  ______.",
+    "options": [
+      "numpy",
+      "matplotlib",
+      "matplotpip",
+      "matlibplot"
+    ],
+    "answer": null
+  },
+  {
+    "id": 97,
+    "question": "Rao -Blackwell theorem enables us to obtain minimum variance unbiased estimator \nthrough",
+    "options": [
+      "Unbiased estimators",
+      "Complete statistics",
+      "Efficient statistics",
+      "Sufficient statistics"
+    ],
+    "answer": null
+  },
+  {
+    "id": 98,
+    "question": "Sample is standard deviation as an estimate of population standard deviation is",
+    "options": [
+      "Unbiased and efficient",
+      "Unbiased and inefficient",
+      "Biased and efficient",
+      "Biased and inefficient"
+    ],
+    "answer": null
+  },
+  {
+    "id": 99,
+    "question": "Student's t -distribution was given by",
+    "options": [
+      "G. W. Snedecor",
+      "R. A. Fisher",
+      "W. S. Gosset",
+      "C. R. Rao"
+    ],
+    "answer": null
+  },
+  {
+    "id": 100,
+    "question": "The chance that doctor A will diagnose a disease X correctly is 60 per cent. The \nChance that a patient will die by his treat ment after correct diagnosis is 40 per cent, and \nthe chance of death by wrong diagnosis is 70 per cent. A patient of doctor A, who had \ndisease X, died. The probability that his disease was diagnosed correctly is",
+    "options": [
+      "6/25",
+      "7/25",
+      "7/13",
+      "6/13"
+    ],
+    "answer": null
+  },
+  {
+    "id": 101,
+    "question": "The diameter of cylindrical rods is assumed to be normally distributed with a \nvariance of 0.04cm. A sample of 25 rods has a mean diameter of 4.5cm. 95% confidence \nlimits for population mean are",
+    "options": [
+      "2.  \n \n \n3.   \n \n \n4.  \n \n \n102) The distribution for which the mode does not exist is  \n \n1. \nNormal distribution",
+      "t-distribution",
+      "Continuous rectangular distribution",
+      "F distribution"
+    ],
+    "answer": null
+  },
+  {
+    "id": 103,
+    "question": "The distribution in which the probability at each successive draw varies is",
+    "options": [
+      "Hypergeometric distribution",
+      "Geometric distribution",
+      "Binomial distribution",
+      "Poisson distribution"
+    ],
+    "answer": null
+  },
+  {
+    "id": 104,
+    "question": "The distribution possessing the memoryless property is",
+    "options": [
+      "Gamma distribution",
+      "Geometric distribution",
+      "Hypergeometric distribution",
+      "Normal distribution"
+    ],
+    "answer": null
+  },
+  {
+    "id": 105,
+    "question": "The empirical relation between Range (R) and Standard Deviation (S.D.) is",
+    "options": [
+      "R = 3 S.D.",
+      "R = 2 S.D.",
+      "R = 4 S.D.",
+      "R = 6 S.D."
+    ],
+    "answer": null
+  },
+  {
+    "id": 106,
+    "question": "The family of parametric distribution for which the mean and variance does not \nexist, is",
+    "options": [
+      "Beta distribution",
+      "Cauchy distribution",
+      "Polya's distribution",
+      "Weibull distribution"
+    ],
+    "answer": null
+  },
+  {
+    "id": 107,
+    "question": "The height of persons in a country is a random variable of the type",
+    "options": [
+      "Continuous random variable",
+      "Discrete random variable",
+      "Neither discrete nor continuous random variable",
+      "continuous as well as discrete random variable"
+    ],
+    "answer": null
+  },
+  {
+    "id": 108,
+    "question": "The logistic regression model uses which type of function to estimate the \nprobability of the outcome?",
+    "options": [
+      "Exponential function.",
+      "Linear function",
+      "Logarithmic function",
+      "Sigmoid function"
+    ],
+    "answer": null
+  },
+  {
+    "id": 109,
+    "question": "The quartile deviation includes the ______",
+    "options": [
+      "First 50%",
+      "Last 50%",
+      "Central 50%",
+      "First 75%"
+    ],
+    "answer": null
+  },
+  {
+    "id": 110,
+    "question": "The sum of square of deviations is least when measured from _____.",
+    "options": [
+      "Median",
+      "Standard Deviation",
+      "Mean",
+      "Mode"
+    ],
+    "answer": null
+  },
+  {
+    "id": 111,
+    "question": "The values displayed on the x -axis are referred to as _______.",
+    "options": [
+      "x ticks",
+      "y ticks",
+      "xy ticks",
+      "ticks"
+    ],
+    "answer": null
+  },
+  {
+    "id": 112,
+    "question": "Two events are said to be independent, if _____",
+    "options": [
+      "One does not affect the occurrence of the other",
+      "There is no common point in between them",
+      "Each outcome has equal chance of occurrence",
+      "Both the events have only one point"
+    ],
+    "answer": null
+  },
+  {
+    "id": 113,
+    "question": "What assum ption is made by the Naive Bayes algorithm regarding the independence \nof features?",
+    "options": [
+      "All features are positively correlated.",
+      "All features are negatively correlated",
+      "All features are conditionally independent given the class.",
+      "All features are uncorrelated."
+    ],
+    "answer": null
+  },
+  {
+    "id": 114,
+    "question": "What does it mean if the Akaike Information Criterion (AIC) of a logistic regression \nmodel is higher than another model?",
+    "options": [
+      "The model with higher AIC is more likely to be overfitting the data.",
+      "The model with higher AI C is more robust against multicollinearity.",
+      "The model with higher AIC has a better fit to the data.",
+      "The model with higher AIC has fewer variables included."
+    ],
+    "answer": null
+  },
+  {
+    "id": 115,
+    "question": "What does it mean if the p -value associated with a coefficient in linear regression is  \nless than the significance level (e.g., 0.05)?",
+    "options": [
+      "The coefficient is statistically significant and likely different from zero.",
+      "The coefficient is statistically insignificant and likely equal to zero.",
+      "The coefficient is positively related to the dependent variable.",
+      "The coefficient is negatively related to the dependent variable."
+    ],
+    "answer": null
+  },
+  {
+    "id": 116,
+    "question": "What does the `decompose()` function in R do?",
+    "options": [
+      "Calculates autocorrelation of a time series",
+      "Fits a seasonal model to the data",
+      "Performs seasonal dec omposition of a time series",
+      "Plots the trend of a time series"
+    ],
+    "answer": null
+  },
+  {
+    "id": 117,
+    "question": "What does the `plyr` package in R provide?",
+    "options": [
+      "Functions for parallel computing",
+      "Functions for data reshaping and aggregation",
+      "Functions for creating interactive web applications",
+      "Functions for plotting data using ggplot2"
+    ],
+    "answer": null
+  },
+  {
+    "id": 118,
+    "question": "What does the `subset()` function in R do?",
+    "options": [
+      "It removes duplicate elements from a vector.",
+      "It extracts a subset of rows from a data frame based on specified conditions",
+      "It calculates the summary statistics of a numeric vector.",
+      "It renames columns in a data frame."
+    ],
+    "answer": null
+  },
+  {
+    "id": 119,
+    "question": "What does the explained variance ratio represent in Principal Component Analysis \n(PCA)?",
+    "options": [
+      "The correlation between the principal components and the original features.",
+      "The percentage of the dataset's total variance explained by each principal component.",
+      "The reconstruction error of the original dataset after dimensionality reduction.",
+      "The number of principal components selected for dimensionality reduction."
+    ],
+    "answer": null
+  },
+  {
+    "id": 1,
+    "question": "plot()  \n \n2. \nhist()  \n \n3. \nboxplot()  \n \n4. \nbarplot()  \n \n \n \nPage 13  \n \n \n \n121) What function is used to calculate the cumulative distribution function (CDF) for a \nchi-squared distribution in R?",
+    "options": [
+      "rchisq()",
+      "dchisq()",
+      "pchisq()",
+      "qchisq()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 122,
+    "question": "What function is used to calculate the interquartile range (IQR) in R?",
+    "options": [
+      "iqr()",
+      "range()",
+      "quantile()",
+      "sd()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 123,
+    "question": "What function is used to calculate the kurtosis in R?",
+    "options": [
+      "kurtosis()",
+      "kurt()",
+      "mean()",
+      "median()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 124,
+    "question": "What function is used to calculate the minimum value in a vector in R?",
+    "options": [
+      "min()",
+      "maximum()",
+      "minval()",
+      "maxval()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 125,
+    "question": "What function is used to calculate the probability density function (PDF) for a beta \ndistribution in R?",
+    "options": [
+      "rbeta()",
+      "dbeta()",
+      "pbeta()",
+      "qbeta()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 126,
+    "question": "What function is used to calculate the probability density function (PDF) for a t -\ndistribution in R?",
+    "options": [
+      "rt()",
+      "dt()",
+      "pt()",
+      "qt()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 127,
+    "question": "What function is used to calculate the quantiles of a standard normal distribution in \nR?",
+    "options": [
+      "rnorm()",
+      "dnorm()",
+      "pnorm()",
+      "qnorm()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 128,
+    "question": "What function is used to calculate the quartiles in R?",
+    "options": [
+      "quantile()",
+      "quartile()",
+      "quant()",
+      "quart()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 129,
+    "question": "What function is used to calculate the range in R?",
+    "options": [
+      "range()",
+      "var()",
+      "mean()",
+      "median()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 130,
+    "question": "What function is used to calculate the skewness in R ?",
+    "options": [
+      "skewness()",
+      "skew()",
+      "mean()",
+      "median()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 131,
+    "question": "What function is used to calculate the variance in R?",
+    "options": [
+      "var()",
+      "sd()",
+      "mean()",
+      "median()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 132,
+    "question": "What function is used to generate random numbers from a normal distribution in \nR?",
+    "options": [
+      "rnorm()",
+      "dnorm()",
+      "pnorm()",
+      "qnorm()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 133,
+    "question": "What is a decision tree in machine learning?",
+    "options": [
+      "A graphical representation of probability distributions.",
+      "A linear regression model with multiple predictor variables.",
+      "A hierarchical structure that uses if -else conditions to make decisions.",
+      "A clustering algorithm for grouping similar data points."
+    ],
+    "answer": null
+  },
+  {
+    "id": 134,
+    "question": "What is a function in R programming?",
+    "options": [
+      "A named block of code that performs a specific task",
+      "A data type used to store a collection of values",
+      "A keyword used to define variables",
+      "A function is not a feature of R programming"
+    ],
+    "answer": null
+  },
+  {
+    "id": 135,
+    "question": "What is entropy in the context of decision trees?",
+    "options": [
+      "A measure of impurity or disorder in a set of data.",
+      "The average information gain at each node in the tree.",
+      "The splitting criterion used to determine the best feature at each node.",
+      "The depth of the tree"
+    ],
+    "answer": null
+  },
+  {
+    "id": 136,
+    "question": "What is pruning in decision trees?",
+    "options": [
+      "The process of reducing the depth of the tree to improve generalization.",
+      "Removing irrelevant features from the dataset.",
+      "Creating multiple decision trees and averaging their predictions.",
+      "Using ensemble techniques to combine multiple decision trees."
+    ],
+    "answer": null
+  },
+  {
+    "id": 137,
+    "question": "What is the concept of feature importance in decision trees?",
+    "options": [
+      "The degree of correlation between each feature and the target variable.",
+      "The weight assigned to each feature based on its predictive power.",
+      "The number of times a feature is selected for splitting across all nodes.",
+      "The significance lev el of each feature determined by hypothesis testing."
+    ],
+    "answer": null
+  },
+  {
+    "id": 138,
+    "question": "What is the drawback of using a decision tree algorithm that is prone to overfitting?",
+    "options": [
+      "It requires a large amount of computational resources.",
+      "It has a high bias and low variance.",
+      "It may create overly complex trees that generalize poorly to new data.",
+      "It cannot handle categorical variables."
+    ],
+    "answer": null
+  },
+  {
+    "id": 139,
+    "question": "What is the drawback of using the Euclidean distance metric in K -means clustering?",
+    "options": [
+      "It assumes that the data is linearly separable.",
+      "It is not suitable for high -dimensional datasets.",
+      "It does not account for feature scaling.",
+      "It is sensitive to the initial placement of cluster centroids."
+    ],
+    "answer": null
+  },
+  {
+    "id": 140,
+    "question": "What is the effect of choosing a larger value of K in the K -NN algorithm?",
+    "options": [
+      "The dec ision boundary becomes more complex.",
+      "The algorithm becomes more prone to overfitting.",
+      "The algorithm becomes more prone to under fitting.",
+      "The algorithm becomes less sensitive to noise in the data."
+    ],
+    "answer": null
+  },
+  {
+    "id": 141,
+    "question": "What is the function used in R to create a design matrix for a factorial design?",
+    "options": [
+      "lm()",
+      "model.matrix()",
+      "anova()",
+      "summary()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 142,
+    "question": "What is the function used in R to perform a Tukey post -hoc test?",
+    "options": [
+      "summary()",
+      "TukeyHSD()",
+      "anova()",
+      "cor()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 143,
+    "question": "What is the function used to calculate the standard deviation in R?",
+    "options": [
+      "stdev()",
+      "sdev()",
+      "sd()",
+      "var()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 144,
+    "question": "What is the function used to convert a time series object to a data frame in R?",
+    "options": [
+      "ts()",
+      "as.data.frame()",
+      "convert_ts()",
+      "time_df()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 145,
+    "question": "What is the function used to plot a regression line in R?",
+    "options": [
+      "plot()",
+      "lines()",
+      "abline()",
+      "curve()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 146,
+    "question": "What is the function used to test for stationarity in a time series object in R ?",
+    "options": [
+      "stationarity()",
+      "ts_stationary()",
+      "adf.test()",
+      "kpss.test()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 147,
+    "question": "What is the impact of irrelevant features on the performance of the Naive Bayes \nalgorithm?",
+    "options": [
+      "Irrelevant features have no impact on the algorithm's performance.",
+      "Irrelevant features can significantly degrade the algorithm's performan ce.",
+      "Irrelevant features can be automatically filtered out by the algorithm.",
+      "The algorithm can handle irrelevant features without any performance degradation"
+    ],
+    "answer": null
+  },
+  {
+    "id": 148,
+    "question": "What is the impact of scaling the features in the K -NN algorithm?",
+    "options": [
+      "Feature scaling has no impact on the algorithm's performance.",
+      "Feature scaling is crucial to ensure accurate distance calculations.",
+      "Feature scaling leads to increased overfitting in the algorithm.",
+      "Feature scaling should only be applied to categ orical features, not numerical features"
+    ],
+    "answer": null
+  },
+  {
+    "id": 149,
+    "question": "What is the impact of the initial placement of cluster centroids on the K -means \nalgorithm?",
+    "options": [
+      "The algorithm is guaranteed to converge to the global optimum regardless of the initial \nplacement.",
+      "The algorithm may converge to different local optima depending on the initial placement.",
+      "The initial placement of centroids has no impact on the algorithm's performance",
+      "The algorithm will fail to converge if the initial placement is not randomly chosen."
+    ],
+    "answer": null
+  },
+  {
+    "id": 150,
+    "question": "What is the impact of the number of clusters (K) on the performance of the K -means \nalgorithm?",
+    "options": [
+      "Increasing K always leads to better clustering results.",
+      "Increasing K can lead to overfitting and less meaningful clusters.",
+      "Incr easing K improves the interpretability of the clusters.",
+      "Increasing K reduces the computational complexity of the algorithm."
+    ],
+    "answer": null
+  },
+  {
+    "id": 151,
+    "question": "What is the function used in R to create a design matrix for a factorial design?",
+    "options": [
+      "lm()",
+      "model.matrix()",
+      "anova()",
+      "summary()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 152,
+    "question": "What is the function used in R to perform a Tukey post -hoc test?",
+    "options": [
+      "summary()",
+      "TukeyHSD()",
+      "anova()",
+      "cor()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 153,
+    "question": "What is the function used to calculate the standard deviation in R?",
+    "options": [
+      "stdev()",
+      "sdev()",
+      "sd()",
+      "var()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 154,
+    "question": "What is the function used to convert a time series object to a data frame in R?",
+    "options": [
+      "ts()",
+      "as.data.frame()",
+      "convert_ts()",
+      "time_df()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 155,
+    "question": "What is the function used to plot a regression line in R?",
+    "options": [
+      "plot()",
+      "lines()",
+      "abline()",
+      "curve()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 156,
+    "question": "What is the function used to test for stationarity in a time series object in R?",
+    "options": [
+      "stationarity()",
+      "ts_stationary()",
+      "adf.test()",
+      "kpss.test()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 157,
+    "question": "What is the impact of irrelevant features on the performance of the Naive Bayes \nalgorithm?",
+    "options": [
+      "Irrelevant features have no impact on the algorithm's performance.",
+      "Irrelevant features can significantly degrade the algorithm's performance.",
+      "Irrelevant features can be automatically filtered out by the algorithm.",
+      "The algorithm can handle irrelevant features without any performance degradation"
+    ],
+    "answer": null
+  },
+  {
+    "id": 158,
+    "question": "What is the impact of scaling the features in the K -NN algorithm?",
+    "options": [
+      "Feature scaling has no impact on the algorithm's performance.",
+      "Feature scali ng is crucial to ensure accurate distance calculations.",
+      "Feature scaling leads to increased overfitting in the algorithm.",
+      "Feature scaling should only be applied to categorical features, not numerical features"
+    ],
+    "answer": null
+  },
+  {
+    "id": 159,
+    "question": "What is the impact of the initial placement of cluster centroids on the K -means \nalgorithm?",
+    "options": [
+      "The algorithm is guaranteed to converge to the global optimum regardless of the initial \nplacement.",
+      "The algorithm may converge to different local optima depending on the initial placement.",
+      "The initial placement of centroids has no impact on the algorithm's performance",
+      "The algorithm will fail to converge if the initial placement is not randomly chosen."
+    ],
+    "answer": null
+  },
+  {
+    "id": 160,
+    "question": "What is the impact of the number of clusters (K) on the performanc e of the K -means \nalgorithm?",
+    "options": [
+      "Increasing K always leads to better clustering results.",
+      "Increasing K can lead to overfitting and less meaningful clusters.",
+      "Increasing K improves the interpretability of the clusters.",
+      "Increasing K reduces the comp utational complexity of the algorithm."
+    ],
+    "answer": null
+  },
+  {
+    "id": 161,
+    "question": "What is the most common method used to determine the optimal number of \nclusters in K -means clustering?",
+    "options": [
+      "Silhouette coefficient.",
+      "Gap statistic",
+      "Elbow method",
+      "Dunn index"
+    ],
+    "answer": null
+  },
+  {
+    "id": 162,
+    "question": "What is the objective function of the K -means clustering algorithm?",
+    "options": [
+      "Minimize the sum of squared distances between data points and cluster centroids.",
+      "Maximize the inter -cluster similarity.",
+      "Minimize the number of clusters required to represent the data.",
+      "Maximize the separation between different clusters."
+    ],
+    "answer": null
+  },
+  {
+    "id": 163,
+    "question": "What is the output of the following code in R programming?  \n \nx <- c(1, 3, 5, 7, 9)  \n \ny <- c(2, 4, 6, 8, 10)  \n \nz <- x + y  \n \n \nz",
+    "options": [
+      "2 7 12 15 19",
+      "3 7 11 15 19",
+      "3 8 11 15 19",
+      "2 8 12 16 20"
+    ],
+    "answer": null
+  },
+  {
+    "id": 164,
+    "question": "What is the output of the following code?  \n \nfor(i in 1:5) {  \n \n  if(i == 3) {  \n \n    next  \n \n  } \n \n  print(i)  \n \n}",
+    "options": [
+      "1 2 3 4 5",
+      "1 2 4 5",
+      "1 2 4",
+      "1 2 4 5 6"
+    ],
+    "answer": null
+  },
+  {
+    "id": 165,
+    "question": "What is the output of the following code?  \n \ni <- 1 \n \nwhile(i <= 5) {  \n \n  print(i)  \n \n  i <- i + 1  \n \n}",
+    "options": [
+      "1 2 3 4 5",
+      "1 2 3 4",
+      "1 2 3",
+      "1 2"
+    ],
+    "answer": null
+  },
+  {
+    "id": 166,
+    "question": "What is the output of the following code?  \n \nvec < - c(5, 10, 15, 20)  \n \nvec[3] < - 25 \n \n \nprint(vec)",
+    "options": [
+      "5 10 15 20",
+      "5 10 25 20",
+      "5 10 15 25",
+      "5 10 25 25"
+    ],
+    "answer": null
+  },
+  {
+    "id": 167,
+    "question": "What is the output of the following code?  \n \nvec1 < - c(2, 4, 6, 8)  \n \nvec2 < - c(1, 3, 5, 7)  \n \nvec3 < - vec1 + vec2  \n \n \nprint(vec3)",
+    "options": [
+      "1 3 5 7",
+      "3 7 11 15",
+      "2 4 6 8",
+      "Error"
+    ],
+    "answer": null
+  },
+  {
+    "id": 168,
+    "question": "What is the output of the following R code?  \n \nx <- c(1, 2, 3, 4, 5)  \n \ny <- c(2, 4, 6, 8, 10)  \n \nlm(y ~ x)",
+    "options": [
+      "A summary of the linear model fit",
+      "A scatterplot of x vs y",
+      "A correlation matrix",
+      "A boxplot of x and y"
+    ],
+    "answer": null
+  },
+  {
+    "id": 169,
+    "question": "What is the purpose of feature extraction in dimensionality reduction?",
+    "options": [
+      "To reduce the number of features to simplify the dataset.",
+      "To create new features based on the original ones.",
+      "To select the most informative features for modeling.",
+      "To transform the features to a different space."
+    ],
+    "answer": null
+  },
+  {
+    "id": 170,
+    "question": "What is the purpose of feature importance in decision trees?",
+    "options": [
+      "To determine the optimal number of features to include in the tree.",
+      "To identify the most influential features in making predictions.",
+      "To measure the accuracy of the decision tree model.",
+      "To calculate the standard error of the regression coefficients."
+    ],
+    "answer": null
+  },
+  {
+    "id": 171,
+    "question": "What is the purpose of pruning in decision trees?",
+    "options": [
+      "To remove irrelevant features from the dataset.",
+      "To handle missing values in the dataset.",
+      "To prevent overfitting and improve the generalization of the tree.",
+      "To split the dataset into training and testing sets."
+    ],
+    "answer": null
+  },
+  {
+    "id": 172,
+    "question": "What is the purpose of the `tryCatch()` function in R?",
+    "options": [
+      ") It performs error handling and allows the user to specify custom error messages.",
+      "It generates random numbers from a specified probability distribution.",
+      "It creates a try -catch block for exception handling.",
+      "It calculates the cumulative sum of a numeric vector."
+    ],
+    "answer": null
+  },
+  {
+    "id": 173,
+    "question": "What is the purpose of the Laplace smoothing (additive smoothing) technique in \nNaive Bayes?",
+    "options": [
+      "To handle missing values in the dataset.",
+      "To improve the performance of the classifier when dealing with imbalanced classes.",
+      "To handle categorical variables in the dataset",
+      "To avoid zero probabilities for unseen features in the training data."
+    ],
+    "answer": null
+  },
+  {
+    "id": 174,
+    "question": "What is the purpose of the odds ratio in logistic regression?",
+    "options": [
+      "To determine the strength of the relationship between independent and dependent variables.",
+      "To evaluate the goodness -of-fit of the logistic regression model.",
+      "To assess the multic ollinearity among the independent variables.",
+      "To calculate the p -value for each independent variable in the model."
+    ],
+    "answer": null
+  },
+  {
+    "id": 175,
+    "question": "What is the purpose of the residual plot in linear regression analysis?",
+    "options": [
+      "To identify influential outliers in the dataset.",
+      "To assess the linearity assumption between the independent and dependent variables",
+      "To determine the correlation coefficient between the independent and dependent variables.",
+      "To evaluate the multicollinearity among the independent variables."
+    ],
+    "answer": null
+  },
+  {
+    "id": 176,
+    "question": "What is the role of the \"K\" in K -means clustering?",
+    "options": [
+      "It represents the total number of data points in the dataset.",
+      "It represents the number of iterations the algorithm will run.",
+      "It represents the number of clusters t o be formed.",
+      "It represents the sum of squared distances between data points and cluster centers."
+    ],
+    "answer": null
+  },
+  {
+    "id": 177,
+    "question": "What is the role of the parameter K in the K -NN algorithm?",
+    "options": [
+      "It determines the distance metric used to calculate distances between data points.",
+      "It defines the number of nearest neighbors considered for classification.",
+      "It controls the learning rate of the algorithm.",
+      "It represents the number of dimensions in the dataset."
+    ],
+    "answer": null
+  },
+  {
+    "id": 178,
+    "question": "What is the role of the Within -Cluster Sum of Squares (WCSS) in the K -means \nalgorithm?",
+    "options": [
+      "It measures the overall compactness of the clusters.",
+      "It determines the optimal number of clusters in the dataset.",
+      "It represents the distance between data points and cluster centroids.",
+      "It serves as th e convergence criterion for the algorithm."
+    ],
+    "answer": null
+  },
+  {
+    "id": 179,
+    "question": "What is the time complexity for training a decision tree with n samples and m \nfeatures using the CART algorithm?",
+    "options": [
+      "O(n^2)",
+      "O(m^2)",
+      "O(n*m)",
+      "O(n*log(m))"
+    ],
+    "answer": null
+  },
+  {
+    "id": 180,
+    "question": "What is the time complexity of the K -NN algorithm for classification on a dataset \nwith n samples and m features?",
+    "options": [
+      "O(n)",
+      "O(m)",
+      "O(n*m)",
+      "O(n^2)"
+    ],
+    "answer": null
+  },
+  {
+    "id": 181,
+    "question": "What will be the output of the following R code?  \n \nR \n \nx <- c(1, 2, 3, 4)  \n \ny <- c(5, 6, 7, 8)  \n \nz <- x + y \n \nprint(z)",
+    "options": [
+      "[6, 8, 10, 12]",
+      "[5, 7, 9, 12]",
+      "[1, 2, 3, 4, 5, 6, 7, 8]",
+      "Error"
+    ],
+    "answer": null
+  },
+  {
+    "id": 182,
+    "question": "When an observation in the data is zero, then its geometric mean is _______?",
+    "options": [
+      "Negative",
+      "Positive",
+      "Zero",
+      "Cannot be calculated"
+    ],
+    "answer": null
+  },
+  {
+    "id": 183,
+    "question": "Whether a test is one -sided or two -sided depends on",
+    "options": [
+      "Composite Hypothesis",
+      "Alternative Hypothesis",
+      "Null Hypothesis",
+      "Simple Hypothesis"
+    ],
+    "answer": null
+  },
+  {
+    "id": 184,
+    "question": "Which algorithm is commonly used to construct a decision tree ensemble?",
+    "options": [
+      "K-means clustering.",
+      "Support Vector Machine (SVM).",
+      "Adaboost",
+      "Principal Component Analysis (PCA)."
+    ],
+    "answer": null
+  },
+  {
+    "id": 185,
+    "question": "Which approach shows hierarchical data in a nested format?",
+    "options": [
+      "Treemaps",
+      "Scatter plots",
+      "Box plots",
+      "Area chart"
+    ],
+    "answer": null
+  },
+  {
+    "id": 186,
+    "question": "Which assumption made by Naive Bayes may cause the \"zero -frequency\" problem?",
+    "options": [
+      "Conditional independence assumption.",
+      "Normal distribution assumption.",
+      "Equal variance assumption.",
+      "Feature correlation assumption."
+    ],
+    "answer": null
+  },
+  {
+    "id": 187,
+    "question": "Which dimensionality reduction technique aims to find a low -dimensional \nrepresentation that preserves the local structure of the data?",
+    "options": [
+      "Principal Component Analysis (PCA).",
+      "t-SNE (t -Distributed Stochastic Neighbor Embedding).",
+      "Linear Discriminant Analysis (LDA).",
+      "Autoencoders"
+    ],
+    "answer": null
+  },
+  {
+    "id": 188,
+    "question": "Which dimensionality reduction technique aims to preserve the pairwise distances \nbetween data points while reducing the dimensionality?",
+    "options": [
+      "Principal Component Analysis (PCA).",
+      "Independent Component Analysis (ICA).",
+      "t-SNE (t -Distributed Stochastic Neighbor  Embedding).",
+      "Locally Linear Embedding (LLE)"
+    ],
+    "answer": null
+  },
+  {
+    "id": 189,
+    "question": "Which dimensionality reduction technique aims to preserve the pairwise distances \nbetween data points?",
+    "options": [
+      "Principal Component Analysis (PCA).",
+      "t-SNE (t -Distributed Stochastic Neighbor Embedding)",
+      "Linear Discriminant Analysis (LDA)",
+      "Auto encoders"
+    ],
+    "answer": null
+  },
+  {
+    "id": 190,
+    "question": "Which dimensionality reduction technique can handle missing values in the \ndataset?",
+    "options": [
+      "Multiple Correspondence Analysis (MCA)",
+      "Factor Analysis (FA).",
+      "Linear Discriminant Analysis (LDA).",
+      "Principal Component Analysis (PCA)."
+    ],
+    "answer": null
+  },
+  {
+    "id": 191,
+    "question": "Which dimensionality reduction technique is based on a deep learning framework \nand learns nonlinear representations of the data?",
+    "options": [
+      "Principal Component Analysis (PCA).",
+      "Linear Discriminant Analysis (LDA).",
+      "Autoencoders",
+      "Non -Negative Matrix Factorization (NMF)."
+    ],
+    "answer": null
+  },
+  {
+    "id": 192,
+    "question": "Which dimensionality reduction technique is based on matrix factorization and can \nbe used for feature extraction and data compression?",
+    "options": [
+      "Singular Value Decomposition (SVD).",
+      "Locally Linear Embedding (LLE).",
+      "Isomap",
+      "Non -Negative Matrix Factorization (NMF)"
+    ],
+    "answer": null
+  },
+  {
+    "id": 193,
+    "question": "Which dimensionality reduction technique is commonly used for visualizing high -\ndimensional data in two or three dimensions?",
+    "options": [
+      "PCA (Principal Component Analysis).",
+      "LDA (Linear Discriminant Analysis).",
+      "t-SNE (t -Distributed Stochastic Neighbor Embedding).",
+      "Autoencoders"
+    ],
+    "answer": null
+  },
+  {
+    "id": 194,
+    "question": "Which dimensionality reduction technique is sensitive to outliers in the dataset?",
+    "options": [
+      "PCA (Principal Component Analysis).",
+      "Linear Discriminant Analysis (LDA).",
+      "Isomap",
+      "t-SNE (t -Distributed Stochastic Neighbor Embedding)."
+    ],
+    "answer": null
+  },
+  {
+    "id": 195,
+    "question": "Which dimensionality reduction technique utilizes the concept of sparsity to \nrepresent data in a lower -dimensional space?",
+    "options": [
+      "Sparse Principal Component Analysis (Sparse PCA).",
+      "Independent Component Analysis (ICA).",
+      "Factor Analysis (FA).",
+      "Random Projection."
+    ],
+    "answer": null
+  },
+  {
+    "id": 196,
+    "question": "Which equation represents the Naive Bayes classifier's decision rule?",
+    "options": [
+      "P(y|x) = P(x|y) * P(y) / P(x)",
+      "P(y|x) = P(x|y) / P(x)",
+      "P(y|x) = P(y) / P(x)",
+      "P(y|x) = P(x) / P(y)"
+    ],
+    "answer": null
+  },
+  {
+    "id": 197,
+    "question": "Which evaluation metric is commonly used to assess the performance of a logistic \nregression model?",
+    "options": [
+      "R-squared",
+      "Mean Absolute Error (MAE).",
+      "Accuracy",
+      "Root Mean Square Error (RMSE)."
+    ],
+    "answer": null
+  },
+  {
+    "id": 198,
+    "question": "Which function in R is used to create a boxplot?",
+    "options": [
+      "plot()",
+      "hist()",
+      "boxplot()",
+      "barplot()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 199,
+    "question": "Which function is used to calculate autocorrelation in R?",
+    "options": [
+      "autocorrelation()",
+      "correlation()",
+      "acf()",
+      "auto_corr()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 200,
+    "question": "Which function is used to check if a string contains a particular substring in R?",
+    "options": [
+      "str_detect()",
+      "grep()",
+      "str_match()",
+      "str_replace()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 201,
+    "question": "Which function is used to compute the correlation coefficient in R?",
+    "options": [
+      "cov()",
+      "cor()",
+      "cor.test()",
+      "t.test()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 202,
+    "question": "Which function is used to concatenate two or more strings in R?",
+    "options": [
+      "str_join()",
+      "str_concat()",
+      "paste()",
+      "str_c()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 203,
+    "question": "Which function is used to create a sequence of numbers in R?",
+    "options": [
+      "seq()",
+      "range()",
+      "linspace()",
+      "arange()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 204,
+    "question": "Which function is used to create a time series object in R?",
+    "options": [
+      "timeSeries()",
+      "ts()",
+      "createTS()",
+      "time_series()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 205,
+    "question": "Which function is used to create a time series plot in R?",
+    "options": [
+      "plot.ts()",
+      "ts_plot()",
+      "time_series_plot()",
+      "tseries_plot()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 206,
+    "question": "Which function is used to decompose a time series object into its components in R?",
+    "options": [
+      "decompose()",
+      "ts_decompose()",
+      "time_decomp()",
+      "tseries_ decomp()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 207,
+    "question": "Which function is used to extract a substring from a string in R?",
+    "options": [
+      "str_extract()",
+      "sub()",
+      "str_replace()",
+      "str_sub()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 208,
+    "question": "Which function is used to find and replace a substring within a string in R?",
+    "options": [
+      "str_replace()",
+      "gsub()",
+      "sub()",
+      "Both A and B"
+    ],
+    "answer": null
+  },
+  {
+    "id": 209,
+    "question": "Which function is used to perform linear regression in R?",
+    "options": [
+      "lm()",
+      "glm()",
+      "loess()",
+      "nls()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 210,
+    "question": "Which function is used to plot a scatter plot in R?",
+    "options": [
+      "plot()",
+      "scatter()",
+      "points()",
+      "plot.scatter()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 211,
+    "question": "Which function is used to reverse a string in R?",
+    "options": [
+      "str_reverse()",
+      "rev()",
+      "str_sub()",
+      "sub()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 212,
+    "question": "Which function is used to split a string into multiple parts based on a separator in \nR?",
+    "options": [
+      "str_split()",
+      "split()",
+      "str_sub()",
+      "sub()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 213,
+    "question": "Which function is used to trim white spaces from the beginning and end of a string \nin R?",
+    "options": [
+      "str_trim()",
+      "trim()",
+      "str_squeeze()",
+      "str_replace_all()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 214,
+    "question": "Which measure of dispersion ensures lowest degree of reliability?",
+    "options": [
+      "Range",
+      "Mean deviation",
+      "Quartile deviation",
+      "Standard deviation"
+    ],
+    "answer": null
+  },
+  {
+    "id": 215,
+    "question": "Which module of matplotlib library is required for plotting of graph?",
+    "options": [
+      "fplot",
+      "ezplot",
+      "pyplot",
+      "matplot"
+    ],
+    "answer": null
+  },
+  {
+    "id": 216,
+    "question": "Which of the average is affected most by extreme observations?",
+    "options": [
+      "Mode",
+      "Median",
+      "Geometric Mean",
+      "Arithmetic Mean"
+    ],
+    "answer": null
+  },
+  {
+    "id": 217,
+    "question": "Which of the following assumptions is NOT required for linear regression analysis?",
+    "options": [
+      "Linearity",
+      "Homoscedasticity",
+      "Multicollinearity",
+      "Normality of residuals"
+    ],
+    "answer": null
+  },
+  {
+    "id": 218,
+    "question": "Which of the following distance metrics is commonly used in the K -NN algorithm?",
+    "options": [
+      "Euclidean distance.",
+      "Manhattan distance.",
+      "Mahalanobis distance.",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 219,
+    "question": "Which of the following evaluation metrics is commonly used for assessing the \nperformance of a Naive Bayes classifier?",
+    "options": [
+      "F1 score.",
+      "Mean Absolute Error (MAE).",
+      "R-squared",
+      "Root Mean Square Error (RMSE)."
+    ],
+    "answer": null
+  },
+  {
+    "id": 220,
+    "question": "Which of the following function is used to find the maximum value in a vector in R?",
+    "options": [
+      "max()",
+      "min()",
+      "mean()",
+      "median()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 121,
+    "question": "Which of the following function is used to generate random numbers in R?",
+    "options": [
+      "rnorm()",
+      "rbinom()",
+      "runif()",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 122,
+    "question": "Which of the following function is used to read a CSV file in R?",
+    "options": [
+      "read.csv()",
+      "read.table()",
+      "readLines()",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 123,
+    "question": "Which of the following functions can be used to create a vector in R?",
+    "options": [
+      "list()",
+      "c()",
+      "array()",
+      "matri x()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 124,
+    "question": "Which of the following functions is used to calculate the mean of a vector in R \nprogramming?",
+    "options": [
+      "mean()",
+      "sum()",
+      "median()",
+      "max()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 125,
+    "question": "What function is used to calculate the probability density function (PDF) for a beta distribution \nin R?  \n \n Answer: 2. dbeta()  \n \n126) Which of the following functions is used to plot a scatter plot in R programming?",
+    "options": [
+      "plot()",
+      "hist()",
+      "boxplot()",
+      "pie()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 127,
+    "question": "Which of the following functions is used to read data from a CSV file in R \nprogramming?",
+    "options": [
+      "read.table()",
+      "read.csv()",
+      "read.delim()",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 128,
+    "question": "Which of the following functions is used to subset a data frame in R programming?",
+    "options": [
+      "subset()",
+      "merge()",
+      "transform()",
+      "aggregate()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 129,
+    "question": "Which of the following is a benefit of dimensionality reduction?",
+    "options": [
+      "It always improves the performance of machine learning models.",
+      "It reduces the risk of overfitting in complex models.",
+      "It guarantees the preservation of all the original information.",
+      "It eliminates the need for preprocessing and feature engineering."
+    ],
+    "answer": null
+  },
+  {
+    "id": 130,
+    "question": "Which of the following is a disadvantage of the K -NN algorithm?",
+    "options": [
+      "It cannot handle categorical variables.",
+      "It requires significant computational resources for large datasets.",
+      "It assumes that the data is linearly separable.",
+      "It is sensitive to the choice of the distance metric."
+    ],
+    "answer": null
+  },
+  {
+    "id": 131,
+    "question": "Which of the following is a limitation of K -means clustering?",
+    "options": [
+      "It requires prior knowledge of the number of clusters in the dataset.",
+      "It cannot handle categorical variables in the data.",
+      "It is sensitive to the initial placement of cluster centers.",
+      "It can only work with datasets that have a small number of features."
+    ],
+    "answer": null
+  },
+  {
+    "id": 132,
+    "question": "Which of the following is a limitation of Non -Negative Matrix \nFactorization (NMF) for dimensionality reduction?",
+    "options": [
+      "It requires the assumption of linear relationships between features.",
+      "It cannot handle high -dimensional datasets.",
+      "It is sensitive to the choice of the distance metric.",
+      "It may produce non -unique factorizations due to local optima."
+    ],
+    "answer": null
+  },
+  {
+    "id": 133,
+    "question": "Which of the following is not a data structure in R?",
+    "options": [
+      "Vector",
+      "Matrix",
+      "Stack",
+      "Data Frame"
+    ],
+    "answer": null
+  },
+  {
+    "id": 134,
+    "question": "Which of the following is not a valid data type in R programming?",
+    "options": [
+      "matrix",
+      "dataframe",
+      "array",
+      "set"
+    ],
+    "answer": null
+  },
+  {
+    "id": 135,
+    "question": "Which of the following is the correct interpretation of the slope \ncoefficient in a simple linear regression model?",
+    "options": [
+      "The change in the dependent variable for a one -unit increase in the independent \nvariable.",
+      "The proportion of the variance in the dependent variable explained by the \nindependent variable",
+      "The predicted value of the dependent variable when all independent variables \nare set to zero.",
+      "The p -value indicating the significance of the independent variable in predicting"
+    ],
+    "answer": null
+  },
+  {
+    "id": 136,
+    "question": "Which of the following is the most unstable average?",
+    "options": [
+      "Mode",
+      "Median",
+      "Geometric Mean",
+      "Harmonic Mean"
+    ],
+    "answer": null
+  },
+  {
+    "id": 137,
+    "question": "Which of the following measures is used to evaluate the goodness -of-\nfit of a linear regression model?",
+    "options": [
+      "R-squared (coefficient of determination)",
+      "F-statistic",
+      "P-value",
+      "Standard error"
+    ],
+    "answer": null
+  },
+  {
+    "id": 138,
+    "question": "Which of the following methods can be used to handle \nmulticollinearity in a linear regression model?",
+    "options": [
+      "Dropping the variables with high p -values.",
+      "Standardizing the variables to have zero mean and unit variance.",
+      "Including interaction terms between the correlated variables.",
+      "Using ridge regression or principal component analysis (PCA)."
+    ],
+    "answer": null
+  },
+  {
+    "id": 139,
+    "question": "Which of the following methods can be used to overcome the \nsensitivity of K -means to the initial placement of cluster centroids?",
+    "options": [
+      "Using a larger number of iterations for convergence.",
+      "Running the algorithm multiple times with different initializations and selecting \nthe best result.",
+      "Assigning equal weights to all data points during centroid initialization.",
+      "Reducing the dimensionality of the dataset before clustering."
+    ],
+    "answer": null
+  },
+  {
+    "id": 140,
+    "question": "Which of the following methods is commonly used for handling \nmulticollinearity in logistic regression?",
+    "options": [
+      "Dropping the variables with high p -values.",
+      "Standardizing the variables to have zero mean and unit variance.",
+      "Including interaction terms between the correlated variables.",
+      "Using regularization techniques such as ridge or lasso regression."
+    ],
+    "answer": null
+  },
+  {
+    "id": 141,
+    "question": "Which of the following operators is used for matrix multiplication in R \nprogramming?",
+    "options": [
+      "*",
+      "/",
+      "%",
+      "%*%"
+    ],
+    "answer": null
+  },
+  {
+    "id": 142,
+    "question": "Which of the following packages is used for data visualization in R \nprogramming?",
+    "options": [
+      "ggplot2",
+      "dplyr",
+      "tidyr",
+      "readr"
+    ],
+    "answer": null
+  },
+  {
+    "id": 143,
+    "question": "Which of the following statements about influential points in linear \nregression is true?",
+    "options": [
+      "Influential points always have a large leverage.",
+      "Influential points have a strong impact on the regression line and coefficient \nestimates",
+      "Influential points can only occur in the dependent variable.",
+      "Influential points do not affect the statistical significance of the model."
+    ],
+    "answer": null
+  },
+  {
+    "id": 144,
+    "question": "Which of the following statements about K -means clustering is true?",
+    "options": [
+      "It guarantees convergence to the global optimum.",
+      "It is unaffected by the initial placement of clu ster centroids.",
+      "It can handle categorical variables as input.",
+      "It is robust to outliers in the dataset."
+    ],
+    "answer": null
+  },
+  {
+    "id": 145,
+    "question": "Which of the following statements is true regarding R data frames?",
+    "options": [
+      "A data frame can only contain numeric data.",
+      "All columns in a data frame must be of the same data type.",
+      "A data frame can have different data types in its columns.",
+      "A data frame can only have a single column."
+    ],
+    "answer": null
+  },
+  {
+    "id": 146,
+    "question": "Which of the following statements is true about the distance metric \nchoice in K -NN?",
+    "options": [
+      "The choice of distance metric does not impact the performance of the algorithm.",
+      "The Euclidean distance metric is preferred for categorical data.",
+      "The Manhattan distance metric is less affected by outliers compared to other \nmetrics",
+      "The choice of distance metric depends on the nature of the data and problem at"
+    ],
+    "answer": null
+  },
+  {
+    "id": 147,
+    "question": "Which of the following statements is true regarding the interpretation \nof p-values in logistic regression?",
+    "options": [
+      "A p-value less than 0.05 indicates that the independent variable is a strong \npredictor of the outcome.",
+      "A p-value less than 0.05 indicates that the odds ratio of the independent variable \nis statistically significant .",
+      "A p-value greater than 0.05 indicates that the logistic regression model is well -\nfitted to the data.",
+      "A p-value greater than 0.05 indicates that the independent variable has no"
+    ],
+    "answer": null
+  },
+  {
+    "id": 148,
+    "question": "Which of the following statem ents is true regarding the scalability of \nNaive Bayes?",
+    "options": [
+      "Naive Bayes is highly scalable and can handle large datasets with high \ndimensionality.",
+      "Naive Bayes is not scalable and performs poorly on large datasets.",
+      "Naive Bayes scalability depends on the type of Naive Bayes algorithm used.",
+      "Naive Bayes scalability is limited to small or moderate -sized datasets."
+    ],
+    "answer": null
+  },
+  {
+    "id": 149,
+    "question": "Which of the following symbol is used for assignment operator in R?",
+    "options": [
+      "=",
+      "<-",
+      "->",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 150,
+    "question": "Which of the following techniques is used to handle missing values in \ndecision trees?",
+    "options": [
+      "Dropping the rows with missing values from the dataset.",
+      "Replacing missing values with the mean of the feature.",
+      "Assigning a separate category for missing values.",
+      "Using statistical imputation techniques to estimate missing values"
+    ],
+    "answer": null
+  },
+  {
+    "id": 251,
+    "question": "Which package in R is commonly used for data manipulation and \ntransformation?",
+    "options": [
+      "tidyverse",
+      "reshape2",
+      "data.table",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 252,
+    "question": "Which package in R is commonly used for time series analysis?",
+    "options": [
+      "data.table",
+      "dplyr",
+      "forecast",
+      "ggplot2"
+    ],
+    "answer": null
+  },
+  {
+    "id": 253,
+    "question": "Which package in R is used for time series forecasting?",
+    "options": [
+      "forecast",
+      "timeSeries",
+      "tsforecast",
+      "tseries"
+    ],
+    "answer": null
+  },
+  {
+    "id": 254,
+    "question": "Which package is used for polynomial regression in R?",
+    "options": [
+      "stats",
+      "base",
+      "plyr",
+      "polynom"
+    ],
+    "answer": null
+  },
+  {
+    "id": 255,
+    "question": "Which Python package is used for data visualization?",
+    "options": [
+      "matplotlib.pip",
+      "matplotlib.pyplot",
+      "matplotlib.numpy",
+      "All of the above"
+    ],
+    "answer": null
+  },
+  {
+    "id": 256,
+    "question": "Which R function is used to calculate the degrees of freedom for a t -\ntest?",
+    "options": [
+      "df()",
+      "tvalue()",
+      "mean.diff()",
+      "pvalue()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 257,
+    "question": "Which R function is used to calculate the probability mass function of \na binomial distribution?",
+    "options": [
+      "dbinom()",
+      "pbinom()",
+      "qbinom()",
+      "rbinom()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 258,
+    "question": "Which R function is used to generate a random sample from a \nbinomial distribution?",
+    "options": [
+      "rnorm()",
+      "rpois()",
+      "rbinom()",
+      "rgeom()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 259,
+    "question": "Which R function is used to perform a two -sample t-test?",
+    "options": [
+      "t.test()",
+      "tvalue()",
+      "mean.diff()",
+      "t.test2()"
+    ],
+    "answer": null
+  },
+  {
+    "id": 260,
+    "question": "Which R package is commonly used for designing experiments and \ncreating factorial designs?",
+    "options": [
+      "dplyr",
+      "lme4",
+      "stats",
+      "DoE.base."
+    ],
+    "answer": null
+  },
+  {
+    "id": 261,
+    "question": "Which R package is used to create interactive plots?",
+    "options": [
+      "ggplot2",
+      "lattice",
+      "base",
+      "plotly"
+    ],
+    "answer": null
+  },
+  {
+    "id": 262,
+    "question": "Which R package is used to create publication -quality plots?",
+    "options": [
+      "ggplot2",
+      "lattice",
+      "base",
+      "plotly"
+    ],
+    "answer": null
+  },
+  {
+    "id": 263,
+    "question": "Which splitting criterion is used in the CART (Classification and \nRegression Trees) algorithm?",
+    "options": [
+      "Gini impurity.",
+      "Information gain.",
+      "Variance reduction.",
+      "Sum of squared errors."
+    ],
+    "answer": null
+  },
+  {
+    "id": 264,
+    "question": "Which type of Naive Bayes algorithm is suitable for text classification \ntasks with binary features?",
+    "options": [
+      "Gaussian Naive Bayes.",
+      "Multinomial Naive Bayes.",
+      "Bernoulli Naive Bayes.",
+      "Complement Naive Bayes."
+    ],
+    "answer": null
+  },
+  {
+    "id": 265,
+    "question": "Which type of Naive Bayes algorithm is suitable when dealing with \ncontinuous numerical features?",
+    "options": [
+      "Gaussian Naive Bayes",
+      "Multinominal Naive Bayes",
+      "Bernoulli Naive Bayes",
+      "All Naive Bayes algorithms can handle continuous numerical features."
+    ],
+    "answer": null
+  }
+]
